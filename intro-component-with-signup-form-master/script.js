@@ -24,7 +24,7 @@ function cycle(e){
     else if(el.classList.contains("email")){
       const mail = el.value.split("@");
       if(mail[0]==="" || mail[1]!=="gmail.com"){
-        const email=(`<div class="warning">Looks like this is not an email</div>`);
+        const email=(`<div class="warning">Looks like this is not an gmail</div>`);
       warning_Con.insertAdjacentHTML("afterbegin",email);
       }
     }
